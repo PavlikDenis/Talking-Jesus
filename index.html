@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Мой говорящий исус/CSS.css">
+    <title>Мой говорящий исус</title>
+</head>
+<body>
+    <header>
+    </header>
+    <main class="container">
+        <script>
+            function changeImage2() {
+                const myImg = document.getElementById('myImg');
+                myImg.src = 'good_jesus.jpg';
+            }
+        </script>
+        <script>
+            function changeImage1() {
+                const myImg = document.getElementById('myImg');
+                myImg.src = 'bad_jesus.jpg';
+            }
+        </script>
+        <div class="navbar">
+            <div class="center">
+                <img src="../Мой говорящий исус/jesus_base.jpg" alt="" class="jesus_img" class="div_center" id="myImg">
+            </div>
+        </div>
+        <div class="navbar">
+            <div class="center">
+                <div class="div_center">
+                    <button class="Button_border" onclick="changeImage1()">Хлеб</button>
+                    <button class="Button_border" onclick="changeImage2()">Вино</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
